@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantheos Consultants</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            background: #0047ab; /* Royal Blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            background: #50c878; /* Emerald Green */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px 0;
+        }
+        .content h2 {
+            text-align: center;
+            margin-top: 0;
+            color: #0047ab; /* Royal Blue */
+        }
+        .services, .clients, .contact, .blog {
+            padding: 20px 0;
+        }
+        .service, .client, .blog-post {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background: #0047ab; /* Royal Blue */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pantheos Consultants</h1>
+            <p>Illuminating the Path to Effective Communication</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Us</h2>
+            <p>Pantheos Consultants is a premier communication consultancy firm based in Kenya, dedicated to enhancing the communication skills and strategies of businesses, organizations, and entrepreneurs. We bring a unique perspective to the art of communication, combining traditional wisdom with modern techniques.</p>
+            <p><strong>Our Mission:</strong> To empower our clients with the skills and strategies needed to communicate effectively, build strong relationships, and achieve their organizational goals.</p>
+            <p><strong>Our Vision:</strong> To be the leading communication consultancy firm in Africa, recognized for our expertise, cultural sensitivity, and innovative approach to communication training.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Strategic Communication Training</h3>
+                <ul>
+                    <li>Executive Communication Coaching</li>
+                    <li>Sales and Marketing Communication Workshops</li>
+                    <li>Corporate Communication Strategy Development</li>
+                    <li>Generational Communication Techniques</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Entrepreneur and Start-up Communication Training</h3>
+                <ul>
+                    <li>Pitch Preparation Workshops</li>
+                    <li>Storytelling for Start-ups</li>
+                    <li>Media and Public Relations Training</li>
+                    <li>Digital Communication Strategies</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Specialized Communication Services</h3>
+                <ul>
+                    <li>Crisis Communication Training</li>
+                    <li>Cross-Cultural Communication</li>
+                    <li>Internal Communication Audits</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Emerging Technologies and Communication Channels</h3>
+                <ul>
+                    <li>Training on New Communication Platforms</li>
+                    <li>Integration of Emerging Technologies</li>
+                </ul>
+            </div>
+        </section>
+        <section id="clients" class="clients">
+            <h2>Our Clients</h2>
+            <p>We serve a diverse range of clients including large corporations, SMEs, entrepreneurs, and start-ups. Our tailored approach ensures that each client receives the specific guidance and support they need to succeed.</p>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Understanding Cross-Cultural Communication</h3>
+                <p>Effective communication across cultures is crucial in today's globalized world. Learn about key strategies and common pitfalls in cross-cultural interactions.</p>
+            </div>
+            <div class="blog-post">
+                <h3>Leveraging Digital Platforms for Marketing Success</h3>
+                <p>Explore how digital communication strategies can boost your marketing efforts and help you reach a broader audience.</p>
+            </div>
+            <div class="blog-post">
+                <h3>Handling Communication During a Crisis</h3>
+                <p>Discover essential tips for managing communication in times of crisis to maintain your organization's reputation and stakeholder trust.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> [Your Address]</p>
+            <p><strong>Phone:</strong> [Your Phone Number]</p>
+            <p><strong>Email:</strong> [wesleyotange@gmail.com]</p>
+            <p><strong>Website:</strong> [Your Website URL]</p>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>Pantheos Consultants &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
